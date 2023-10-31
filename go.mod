@@ -5,15 +5,13 @@ go 1.16
 require (
 	github.com/container-storage-interface/spec v1.5.0
 	github.com/go-logr/logr v0.3.0 // indirect
-	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
-	github.com/golang/protobuf v1.4.3
+	github.com/golang/glog v1.1.0
+	github.com/golang/protobuf v1.5.3
 	github.com/kubernetes-csi/csi-lib-utils v0.9.0
 	github.com/pborman/uuid v1.2.1
-	github.com/stretchr/testify v1.7.0
-	golang.org/x/net v0.0.0-20201209123823-ac852fbbde11
-	golang.org/x/sys v0.0.0-20201207223542-d4d67f95c62d // indirect
-	google.golang.org/genproto v0.0.0-20201209185603-f92720507ed4 // indirect
-	google.golang.org/grpc v1.34.0
+	github.com/stretchr/testify v1.8.3
+	golang.org/x/net v0.9.0
+	google.golang.org/grpc v1.56.3
 	k8s.io/apimachinery v0.21.0-alpha.0
 	k8s.io/klog/v2 v2.4.0
 	k8s.io/kubernetes v1.20.0
